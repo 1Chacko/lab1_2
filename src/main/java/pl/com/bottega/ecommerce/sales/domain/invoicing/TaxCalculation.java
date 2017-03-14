@@ -5,8 +5,7 @@ import java.math.BigDecimal;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
 public class TaxCalculation {
-	public Tax calculateTax(RequestItem item) {
- 		Money net = item.getTotalCost();
+	public Tax calculateTax(Money net, RequestItem item) {
  		BigDecimal ratio = null;
  		String desc = null;
  		
