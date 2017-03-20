@@ -7,8 +7,7 @@ import pl.com.bottega.ecommerce.sharedkernel.Money;
 public class PaymentCreator {
 	public Payment createPayment(ClientData clientData, Money amount) {
 		
-		Id id = Id.generate();
-				 
+		Id id = Id.generate();	 
 		return new Payment(id, clientData, amount.multiplyBy(-1));	
 	}
 }
