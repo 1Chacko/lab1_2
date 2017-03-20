@@ -20,7 +20,6 @@ import java.util.UUID;
 
 import org.apache.commons.lang3.Validate;
 
-
 public class Id implements Serializable{
 
 	private String id;
