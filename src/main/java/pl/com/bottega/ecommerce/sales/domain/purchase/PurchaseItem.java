@@ -18,15 +18,10 @@ package pl.com.bottega.ecommerce.sales.domain.purchase;
 import pl.com.bottega.ecommerce.sales.domain.productscatalog.ProductData;
 import pl.com.bottega.ecommerce.sharedkernel.Money;
 
-
 public class PurchaseItem {
 	
-
 	private ProductData productData;
-	
 	private int quantity;	
-	
-
 	private Money totalCost;
 	
 	@SuppressWarnings("unused")
@@ -50,5 +45,4 @@ public class PurchaseItem {
 		return totalCost;
 	}
 
-	
 }
